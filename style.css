@@ -2,6 +2,96 @@ body {
     font-family: "monospace", sans-serif;
 }
 
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: #000 !important;
+    font-weight: bold;
+}
 .font-primary {
     color: #00abae;
+}
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/***************
+
+    Projects
+
+******************/
+
+#about {
+    text-align: center;
+    margin: 60px auto;
+    max-width: 300px;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name {
+    font-size: 19px;
+}
+
+#about .vocation {
+    font-size: 17px;
+    color: #a8a8ab;
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    font-size: 14px;
+    color: #00abae;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#about .email {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#about .icons {
+    font-size: 30px;
+}
+
+
+#about .icons a{
+    color: #808080
+}
+
+/***************
+
+    Projects
+
+******************/
+
+#projects {
+     margin: 60px auto;
+    max-width: 80%;
+}
+
+#projects h3 {
+    text-align: center;
+}
+
+#projects .card img {
+    width: 100%;
+}
+#projects .card-title {
+    font-weight: bold;
 }
